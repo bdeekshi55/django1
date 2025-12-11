@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-34z&11$qp!4mv_h5(#wc80&afuen@p7_^b0_y#e^455w9zp2h_
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "django1-2-3d2h.onrender.com",
-    "localhost",
-    "127.0.0.1"
+    'django1-5-e6w1.onrender.com',  # your current Render.com domain
+    'localhost',
+    '127.0.0.1',
 ]
 
 
@@ -122,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
